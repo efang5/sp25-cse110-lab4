@@ -9,23 +9,23 @@
 9. There would have been an error because you can not redefine the value of a const which is attempted on line 7.
 10. There would have been an error because you can not redefine the value of a const which is attempted on line 7.
 11. There would have been an error because you can not redefine the value of a const which is attempted on line 7.
-12. A. student.name accesses the value of the name property of the student object.
-    B. student['Grad Year'] accesses the Grad Year property of the student object.
-    C. student.greeting() calls the greeting function of the student object.
-    D. student['Favorite Teacher'].name accesses the name of the property in the Favorite Teacher property in student.
-    E. student.courseLoad[0] accesses the zero index in the array in the courseLoad property of the student object.
-13. A. '32' will be the output because javascript defaults to contatonation and converts the nunmber into a string and concatonates them.
-    B. 1 will be the output because there is no - operator for strings therefore it converts the string into a number and finds the difference them.
-    C. 3 will be the output because when adding a number to null the default of javascript is to make null 0 therefore it will just be the number.
-    D. '3null' will be the output because when adding a string to null it just turns null into the string 'null' and concatonates them.
-    E. 4 as when adding true to a number true is by default turned into 1 and 1 + 3 is 4.
-    F. 0 as when adding false and null the default of javascript is to turn them both into numbers which would both be 0.
-    G. '3undefined' will be the output as when adding a string to undefined javascript default turns undefined into the string 'undefined' and concatonates them.
-    H. NaN will be the output because when you do subtraction with a string javascript converts them into number, but undefined when converted to a number is still undefined therefore the result is NaN.
-14. A. true as when you compare a string and number it default compares them as numbers and 2 > 1 is true.
-    B. false as when you compare two strings it compares there characters from left to right and 2 has a higher value then 1 therefore '2' < '12' is false.
-    C. true as when you compare a string and a number it defaults to comparing them as numbers and 2 == 2, therefore 2 == '2'.
-    D. false as when you do === it means to do it without type conversion therefore 2 === '2' is false as they are different types.
-    E. false as when you compare a boolean with a number it default changes true to 1 and false to 0, as 1 == 2 is false,  true == 2 is also false.
-    F. true as when you do Boolean(2) you get true as the Boolean of any number besides 0 is true and true == true is true.
+12. A. student.name accesses the value of the name property of the student object.  
+    B. student['Grad Year'] accesses the Grad Year property of the student object.  
+    C. student.greeting() calls the greeting function of the student object.  
+    D. student['Favorite Teacher'].name accesses the name of the property in the Favorite Teacher property in student.  
+    E. student.courseLoad[0] accesses the zero index in the array in the courseLoad property of the student object.  
+14. A. '32' will be the output because javascript defaults to contatonation and converts the nunmber into a string and concatonates them.  
+    B. 1 will be the output because there is no - operator for strings therefore it converts the string into a number and finds the difference them.  
+    C. 3 will be the output because when adding a number to null the default of javascript is to make null 0 therefore it will just be the number.  
+    D. '3null' will be the output because when adding a string to null it just turns null into the string 'null' and concatonates them.  
+    E. 4 as when adding true to a number true is by default turned into 1 and 1 + 3 is 4.  
+    F. 0 as when adding false and null the default of javascript is to turn them both into numbers which would both be 0.  
+    G. '3undefined' will be the output as when adding a string to undefined javascript default turns undefined into the string 'undefined' and concatonates them.  
+    H. NaN will be the output because when you do subtraction with a string javascript converts them into number, but undefined when converted to a number is still undefined therefore the result is NaN.  
+15. A. true as when you compare a string and number it default compares them as numbers and 2 > 1 is true.  
+    B. false as when you compare two strings it compares there characters from left to right and 2 has a higher value then 1 therefore '2' < '12' is false.  
+    C. true as when you compare a string and a number it defaults to comparing them as numbers and 2 == 2, therefore 2 == '2'.  
+    D. false as when you do === it means to do it without type conversion therefore 2 === '2' is false as they are different types.  
+    E. false as when you compare a boolean with a number it default changes true to 1 and false to 0, as 1 == 2 is false,  true == 2 is also false.  
+    F. true as when you do Boolean(2) you get true as the Boolean of any number besides 0 is true and true == true is true.  
 16. 
