@@ -9,3 +9,8 @@
 9. There would have been an error because you can not redefine the value of a const which is attempted on line 7.
 10. There would have been an error because you can not redefine the value of a const which is attempted on line 7.
 11. There would have been an error because you can not redefine the value of a const which is attempted on line 7.
+12. A. student.name accesses the value of the name property of the student object.
+    B. student['Grad Year'] accesses the Grad Year property of the student object.
+    C. student.greeting() calls the greeting function of the student object.
+    D. student['Favorite Teacher'].name accesses the name of the property in the Favorite Teacher property in student.
+    E. student.courseLoad[0] accesses the zero index in the array in the courseLoad property of the student object.
