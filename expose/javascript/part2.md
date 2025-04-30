@@ -32,4 +32,4 @@
 16. 
 17. [2, 4, 6], the original array is [1, 2, 3], the for loop iterates through each element of the original array. Callback is doSomething which doubles the value its given. In the for loop the double of the original value from the original array is added to the new array. After going through the entire for loop, the new array is [2, 4, 6] which is the return value resulting from modifyArray([1,2,3], doSomething).
 18. 
-19. need to answer
+19. 1 4 3 2 will be the output each number on its own line. 1 will be first as its called first, 4 comes before 3 because 3 is delayed because of the call of setTimeout, 3 comes before 2 as 2 has a longer timeout time then 3.
