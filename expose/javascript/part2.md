@@ -28,6 +28,6 @@
     D. false as when you do === it means to do it without type conversion therefore 2 === '2' is false as they are different types.  
     E. false as when you compare a boolean with a number it default changes true to 1 and false to 0, as 1 == 2 is false,  true == 2 is also false.  
     F. true as when you do Boolean(2) you get true as the Boolean of any number besides 0 is true and true === true is true.  
-15. == compares to see whether the two objects it are comparing are equivalent using type conversion if needed. === compares to see whether two objects are equivalent without type conversion.  
+15. == compares to see whether the two objects it are comparing are equivalent using type conversion if needed. === compares to see whether two objects are equivalent without type conversion.
 17. [2, 4, 6], the original array is [1, 2, 3], the for loop iterates through each element of the original array. Callback is doSomething which doubles the value its given. In the for loop the double of the original value from the original array is added to the new array. After going through the entire for loop, the new array is [2, 4, 6] which is the return value resulting from modifyArray([1,2,3], doSomething).
 19. 
